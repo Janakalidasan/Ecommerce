@@ -1,0 +1,214 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+*{
+    font-family: sans-serif;
+}
+/* common color */
+:root{
+    --first-color: #6CBCFD;
+    --second-color: #000;
+}
+/* header */
+.logo{
+    width: 50px;
+}
+.nav-item{
+margin-left: 30px;
+}
+.but-color{
+    background-color:var(--first-color) ;
+    color: #fff;
+    border-radius: 20px;
+}
+.but-color:hover{
+    background-color:var(--second-color) ;
+    color: #fff;
+}
+/* footer */
+.footer-logo{
+    width: 100px;
+}
+.icon-body{
+    font-size: 20px !important;
+    color: #000 !important;
+    cursor: pointer;
+}
+.mes >h6{
+   font-size: 15px;
+   font-weight: bold;
+}
+.mes >p{
+    font-size: 12px;
+    font-weight: 200;
+}
+.ic-co{
+    text-decoration-line: none !important;
+    color: #000 !important;
+    font-size: 12px;
+}
+.bg-head{
+    background-image: url('../image/Group-bg.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+    /* display: flex;
+    align-items: center; */
+}
+.get{
+    font-weight: 900;
+}
+.get span{
+    color: #ff0000 !important;
+}
+.gets-ready{
+    display: flex;
+    align-items: center;
+}
+.mess{
+    display: flex;
+    justify-content: end;
+}
+.mens{
+    /* width: 340px; */
+    width: 26.6rem;
+    display: flex;
+    justify-content: end;
+}
+.new-s{
+    text-align: center;
+    padding-top: 15px;
+    font-weight: 900;
+    background: linear-gradient(45deg,red,#6CBCFD);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.men-01{
+    border: 2px solid #000;
+    border-radius: 20px;
+    transition: 1s;
+}
+.men-01:hover{
+    transform: scale(1.1);
+}
+.card{
+    border-radius: 20px;
+    cursor: pointer;
+    overflow: hidden;
+}
+.more{
+    display: flex;
+    justify-content: end;
+}
+.links{
+    color: #000 !important;
+    text-decoration-line: none !important;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.full-men{
+  background-image: url('../image/men-full.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 950px;
+display: flex;
+}
+.Enjoys{
+color: #fff;
+font-size: 30px;
+}
+/* men */
+.col-bgs{
+    background-color: #C4C4C4 !important;
+    display: flex;
+}
+.menson{
+    width: 22.5rem;
+    display: flex;
+    justify-content: end;
+}
+.menss-1{
+        /* width: 340px; */
+        width: 19.6rem;
+        display: flex;
+        justify-content: end;
+}
+/* .home-demo .item {
+    background: #ff3f4d;
+} */
+.home-demo h2 {
+    color: #FFF;
+    text-align: center;
+    padding: 5rem 0;
+    margin: 0;
+    font-style: italic;
+    font-weight: 300;
+}
+.bl-bt{
+    background-color: #0D9EF0 !important; 
+    border-radius: 10px;
+}
+.bl-bt:hover{
+    background-color: #fff !important; 
+    border: 1px solid #0D9EF0;
+}
+.a-bl{
+    text-decoration-line: none !important;
+    color: #fff !important;
+}
+.a-bl:hover{
+    text-decoration-line: none !important;
+    color: #000 !important;
+}
+.shirt{
+    display: flex;
+    justify-content: center;
+    font-weight: 800;
+}
+.owl-dots{
+    display: none !important;
+}
+.menssa{
+    background-image: url('../image/men-last.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 564px;
+    margin-bottom: 50px;
+}
+.meen-01{
+   
+    border-radius: 20px;
+    transition: 1s;
+}
+.meen-01:hover{
+    transform: scale(1.1);
+}
+/* womendress */
+
+.womensdess{
+    margin-top: 35px;
+    width: 22.5rem;
+    display: flex;
+    justify-content: end;
+}
+.menss-12 {
+    /* width: 340px; */
+    width: 23.6rem;
+    display: flex;
+    justify-content: center;
+    margin-top: 84px;
+    margin-left: -43px;
+}
+.col-bgs-1{
+    background-color: #000000 !important;
+    display: flex;
+}
+.get-1{
+    font-weight: 900;
+    color: #fff;
+}
+.get-1 span{
+    color: #ff0000 !important;
+}
