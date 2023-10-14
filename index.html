@@ -24,13 +24,18 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-7 col-md-7 col-sm-12 gets-ready">
-                    <h1 class="get">Get <span>25%</span> off on all dressess!<br>
+                    <h1 class="get text-3ds">Get <span>25%</span> off on all dressess!<br>
                         Shop now and save big!</h1>
 
                 </div>
                 <div class="col-lg-5 col-md-5 col-sm-12">
-                    <div class="mess">
-                        <img src="./Assets/image/men-1.png" class="mens">
+                    <!-- <div class="mess">
+                        <img src="./Assets/image/men-1.png" class="mens slide active">
+                    </div> -->
+                    <div class="slideshow mess">
+                        <img src="./Assets/image/men-1.png" class="slide active mens">
+                  
+                        <img src="./Assets/image/womendress-1.png" class="slide">
                     </div>
                 </div>
             </div>
@@ -61,7 +66,7 @@
                     <img src="./Assets/image/men-4.png" class="men-01">
                 </div>
                 <div class="more">
-                    <a href="#0" class="links">See More <i class="fa-solid fa-arrow-right"></i></a>
+                    <a href="./mendress.html" class="links">See More <i class="fa-solid fa-arrow-right"></i></a>
                 </div>
             </div>
         </div>
@@ -92,7 +97,7 @@
                     <img src="./Assets/image/t-04.png" class="men-01">
                 </div>
                 <div class="more">
-                    <a href="#0" class="links">See More <i class="fa-solid fa-arrow-right"></i></a>
+                    <a href="./womendress.html" class="links">See More <i class="fa-solid fa-arrow-right"></i></a>
                 </div>
             </div>
         </div>
@@ -181,7 +186,7 @@
                     <img src="./Assets/image/sh-11.png" class="men-01">
                 </div>
                 <div class="more">
-                    <a href="#0" class="links">See More <i class="fa-solid fa-arrow-right"></i></a>
+                    <a href="./shoes.html" class="links">See More <i class="fa-solid fa-arrow-right"></i></a>
                 </div>
             </div>
         </div>
@@ -190,6 +195,20 @@
     <!-- footer -->
     <footer></footer>
     <script src="./Assets/js/script.js"></script>
+    <script>
+          document.addEventListener("DOMContentLoaded", function () {
+        const slides = document.querySelectorAll(".slide");
+        let currentSlide = 0;
+    
+        function nextSlide() {
+            slides[currentSlide].classList.remove("active");
+            currentSlide = (currentSlide + 1) % slides.length;
+            slides[currentSlide].classList.add("active");
+        }
+    
+        setInterval(nextSlide, 2000); // Change slide every 3 seconds
+    });
+    </script>
 </body>
 
 </html>
