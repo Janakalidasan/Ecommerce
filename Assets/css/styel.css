@@ -635,3 +635,56 @@ justify-content: center;
     color: #000;
     font-weight: bold;
 }
+
+@media (max-width:540px){
+    .menson {
+       display: none;
+    }
+    .menssa {
+        height: 168px;
+      
+    }
+    .new-reda {
+        height: 165px;
+        border-radius: 20px;
+        box-shadow: 5px 5px 20px;
+    }
+    .item .card{
+        width: 20rem !important;
+    }
+    .cor-shoe {
+        height: 68px;
+    }
+    .cor-shoe-1 {
+        height: 68px;
+   
+    }
+    .shoes-1 {
+        height: 200px;
+        width: 100%;
+    }
+    .new-shoes {
+        width: 100%;
+        height: 320px;
+
+    }
+    .many-s {
+        color: #fff;
+        font-weight: 800;
+        font-size: 12px;
+    }
+    .new-drop {
+        margin-left: 9px;
+    }
+    .but-color {
+        background-color: var(--first-color);
+        color: #fff;
+        border-radius: 20px;
+        margin-left: 20px;
+        margin-top: 20px;
+    }
+}
+.item {
+    display: flex;
+    justify-content: center;
+}
