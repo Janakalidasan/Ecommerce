@@ -688,3 +688,20 @@ justify-content: center;
     display: flex;
     justify-content: center;
 }
+#sum-btn:hover{
+    font-size: 15px;
+    background-color: var(--first-color);
+}
+.footsec{
+    background-color: #000;
+  
+}
+.years {
+    color: #fff;
+    text-align: center;
+    padding: 25px;
+    margin-bottom: 0px;
+}
+.footsec span{
+    color: #ff0000;
+}
