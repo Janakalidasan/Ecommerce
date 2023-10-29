@@ -18,7 +18,7 @@ fetch("./footer.html")
         // Owl Carousel
         var owl = $(".owl-carousel");
         owl.owlCarousel({
-            items: 1,   // Display a single item on mobile
+            items: 2,   // Display a single item on mobile
             margin: 10,
             loop: true,
             nav: true,
@@ -26,6 +26,9 @@ fetch("./footer.html")
                 // On larger screens, display more items
                 768: {
                     items: 6
+                },
+                575: {
+                    items: 4
                 }
             }
         });

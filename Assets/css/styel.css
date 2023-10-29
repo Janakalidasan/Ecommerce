@@ -637,6 +637,13 @@ justify-content: center;
 }
 
 @media (max-width:540px){
+    .get-1 {
+        font-weight: 700;
+        color: #fff;
+    }
+    .womensdess {
+      display: none;
+    }
     .menson {
        display: none;
     }
@@ -660,7 +667,7 @@ justify-content: center;
    
     }
     .shoes-1 {
-        height: 200px;
+        height: 158px;
         width: 100%;
     }
     .new-shoes {
